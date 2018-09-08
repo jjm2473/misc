@@ -1,7 +1,6 @@
 /**
  * 二值位图转svg，可以转换二维码等点阵图
- * @author github.com/jjm2473
- * @repo misc
+ * 
  */
 
 // 二值位图 100px*100px
@@ -24,13 +23,15 @@ out+='<defs>\n';
 out+='<rect id="seq" width="'+seqR+'" height="'+seqR+'" />\n';
 out+='<circle id="cir" r="'+cirR+'" />\n';
 out+='</defs>\n';
+
 out+='<g fill="#FF6666">\n';
 
 for (var r=0;r<height;++r) {
+	var yp = r*width;
+	var y = r*seqR;
 	for (var c=0;c<width;++c) {
-		if (vec[r*100+c]) {
-			var x = r*6;
-			var y = c*6;
+		if (vec[yp+c]) {
+			var x = c*seqR;
 			out = out + '<use x="'+x+'" y="'+y+'" xlink:href="#'+style+'" />\n';
 		}
 	}
