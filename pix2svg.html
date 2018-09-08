@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+	<div id="canvas">
+	</div>
+	<script src="pix2svg.js"></script>
+	<script>
+		var canvas = document.getElementById('canvas');
+		canvas.innerHTML = out;
+		var svg = canvas.getElementsByTagName('svg')[0];
+		var g = svg.getElementsByTagName('g')[0];
+		g.setAttribute('transform', 'rotate(45 '+(svgWidth/2)+' '+(svgHeight/2)+')');
+		svg.setAttribute('viewBox', '-'+parseInt((Math.SQRT2-1) * svgWidth / 2)+' -'+parseInt((Math.SQRT2-1) * svgHeight / 2)+' '+parseInt(svgWidth*Math.SQRT2)+' '+parseInt(svgHeight*Math.SQRT2));
+	</script>
+</body>
+</html>
