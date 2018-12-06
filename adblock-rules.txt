@@ -1,3 +1,7 @@
+[Adblock Plus 2.0]
+! Title: NoCoin Filter List
+! Expires: 2 days (update frequency)
+! ---------------------
 xiami.com###J_playerHQ-tip
 apk.hiapk.com##.search_area
 kuwo.cn##.qr_wrapper
