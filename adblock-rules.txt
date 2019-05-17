@@ -37,3 +37,5 @@ rawgit.com
 olark.com
 g.csdnimg.cn/check-adblock/*
 g.csdnimg.cn/lib/fuckadblock/*
+m.xyyuedu.com##.ad2
+2.uuzuowen.com
