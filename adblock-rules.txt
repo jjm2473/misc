@@ -38,4 +38,5 @@ olark.com
 g.csdnimg.cn/check-adblock/*
 g.csdnimg.cn/lib/fuckadblock/*
 m.xyyuedu.com##.ad2
+1.uuzuowen.com
 2.uuzuowen.com
