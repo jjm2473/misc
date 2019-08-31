@@ -1,5 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: jjm2473 personal list
+! Source: https://github.com/jjm2473/misc/master/adblock-rules.txt
 ! Expires: 7 days (update frequency)
 ! ---------------------
 xiami.com###J_playerHQ-tip
@@ -40,3 +41,5 @@ g.csdnimg.cn/lib/fuckadblock/*
 m.xyyuedu.com##.ad2
 1.uuzuowen.com
 2.uuzuowen.com
+! mooc
+icourse163.org##.um-recommend-modal
